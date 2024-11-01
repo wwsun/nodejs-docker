@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-docker",
+  "version": "1.0.0",
+  "description": "a nodejs docker demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "docker-build": "docker build -t nodejs-docker .",
+    "docker-run": "docker run -p 3000:3000 nodejs-docker"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
